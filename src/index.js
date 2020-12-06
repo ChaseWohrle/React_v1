@@ -3,10 +3,16 @@ import ReactDOM from 'react-dom';
 import './index.css';
 import App from './App';
 import reportWebVitals from './reportWebVitals';
+import HelloWorld from './HelloWorld';
+import Bomb from './Bomb';
+import RouletteGun from './RouletteGun';
 
 ReactDOM.render(
   <React.StrictMode>
     <App />
+    <HelloWorld />
+    <Bomb />
+    <RouletteGun />
   </React.StrictMode>,
   document.getElementById('root')
 );
